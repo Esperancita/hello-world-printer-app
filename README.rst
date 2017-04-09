@@ -89,3 +89,8 @@ Materiały
 =========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
+
+Heroku:
+Adres aplikacji: https://glacial-retreat-45401.herokuapp.com/
+
+Monitoring na StatusCake
