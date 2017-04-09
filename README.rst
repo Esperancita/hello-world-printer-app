@@ -56,6 +56,8 @@ Pomocnicze
     yum install python-pip
     pip install virtualenv
     pip install virtualenvwrapper
+    source /usr/bin/virtualenvwrapper.sh
+
 
 - Instalacja docker-a:
 
@@ -76,6 +78,9 @@ Pomocnicze
     yum makecache fast
     yum install docker-ce
     systemctl start docker
+
+Git
+gir push origin <branch name>
 
 
 
