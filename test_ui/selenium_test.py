@@ -6,7 +6,7 @@ import unittest
 
 class SimpleTest(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.maximize_window()
         self.driver.get('http://localhost:5000')
 
