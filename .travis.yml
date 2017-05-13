@@ -12,5 +12,5 @@ after_success:
   - PASSWORD=${DOCKER_PASSWORD} make docker_push
 deploy:
   provider: heroku
-  app: hello-world-printer-app
+  app: glacial-retreat-45401
   api_key: ${HEROKU_API_KEY}
