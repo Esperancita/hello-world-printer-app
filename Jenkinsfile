@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'test_xunit || true'
+                sh 'make test_xunit || true'
                 step([$class: 'XUnitBuilder',
                     thresholds: [
                         [$class: 'SkippedThreshold', failureThreshold: '0'],
